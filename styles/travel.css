@@ -1,0 +1,174 @@
+body {
+    font-family: 'Mulish', sans-serif;
+    margin: 40px 70px;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav-title {
+    display: flex;
+    gap: 20px;
+
+}
+
+.bd {
+    color: #131318;
+    font-size: 2.2rem;
+    font-weight: 800;
+
+}
+
+.travel {
+    color: #FF5400;
+    font-family: Mulish;
+    font-size: 2.2rem;
+
+    font-weight: 800;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+
+}
+
+nav li {
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+nav li a {
+    text-decoration: none;
+}
+
+#home-color {
+    color: #FF5400;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.a-color {
+    color: #424247;
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+.banner {
+    background-image: url('../Images/Group13.png');
+    height: 500px;
+    margin: 40px 0px 80px 0px;
+}
+
+.banner-title {
+    color: #FFF;
+    font-size: 4rem;
+    font-weight: 800;
+    padding: 120px 220px 30px 220px;
+}
+
+.text-description {
+    color: #FFF;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 7px 190px 60px 200px;
+}
+
+.input-container {
+
+    margin-left: 180px;
+    margin-right: 200px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    text-align: center;
+
+}
+
+.input-header {
+    width: 170px;
+    height: 50px;
+    border-radius: 8px;
+    background: #FFF;
+    margin: 5px;
+
+}
+
+.btn-find {
+    width: 170px;
+    height: 50px;
+
+    border-radius: 8px;
+    background: #FF5400;
+
+}
+
+/* popular tours styles  */
+.popular-tours-container {
+    display: flex;
+    gap: 50px;
+}
+
+.tour-title {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.common-text {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-family: Mulish;
+    font-weight: 400;
+    margin: 10px;
+}
+
+div ul li {
+    margin: 20px 15px;
+}
+#btn{
+    margin-top: 30px;
+}
+
+
+/* media quary or device control  */
+
+@media screen and (max-width:576px) {
+    body {
+        margin: 10px 20px;
+    }
+    nav ul{
+        gap: 8px;
+    }
+
+    nav,
+    .popular-tours-container {
+        flex-direction: column;
+    }
+
+    .banner-title {
+        padding: 10px 20px;
+        font-size: 2.5rem;
+    }
+
+    .text-description {
+        padding: 10px 20px;
+    }
+
+    .input-container {
+        text-align: center;
+    }
+    .tours-img img{
+        width: 100%;
+    }
+
+}
