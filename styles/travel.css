@@ -513,9 +513,9 @@ td {
     }
 
     .banner-title {
-        padding: 10px 20px;
+        padding: 10px;
         font-size: 2.5rem;
-        height: 600px;
+        height: 500px;
     }
 
     .text-description {
@@ -552,17 +552,13 @@ td {
         grid-template-columns: 1fr;
         grid-template-rows: repeat(7, 1fr);
     }
-    /* .destination-img-container{
+    .destination-img-container{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-    } */
-    /* simple video container styles  */
-
-    .simple-video-container{
-        display: flex;
     }
+    
 
     .newsletter-container{
         margin: 10px;
@@ -662,14 +658,15 @@ td {
         box-shadow: 10px 10px 20px wheat;
     }
     .newsletter-img img{
-        width: 100%;
+        width: 80%;
     }
     .bgc{
         position: relative;
-        left: 200px;
-        bottom: 165px;
-        transform: rotate(-20deg);
+        left: 150px;
+        bottom: 180px;
+        transform: rotate(-30deg);
        width: 250px;
+       /* display: none; */
        
       
     }
