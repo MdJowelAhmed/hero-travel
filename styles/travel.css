@@ -9,10 +9,8 @@ body {
     /* box-sizing: border-box; */
 }
 
-.nav-title {
-    display: flex;
-    gap: 20px;
-
+.nav-title{
+   gap: 20px;
 }
 
 .bd {
@@ -29,8 +27,9 @@ body {
     font-weight: 800;
 }
 
-h3 {
+h3{
     display: inline;
+
 }
 
 nav {
@@ -40,14 +39,12 @@ nav {
 
 nav ul {
     display: flex;
-    gap: 20px;
 
 }
 
 nav li {
     list-style: none;
-    justify-content: center;
-    align-items: center;
+   
 }
 
 nav li a {
@@ -69,14 +66,18 @@ nav li a {
 .banner {
     background-image: url('../Images/Group13.png');
     height: 500px;
-    margin: 40px 0px 80px 0px;
+    margin: 60px 0px 80px 0px;
 }
+.title{
+    margin-top: 150px;
+}
+
 
 .banner-title {
     color: #FFF;
-    font-size: 4rem;
+    font-size: 3.5rem;
     font-weight: 800;
-    padding: 120px 220px 30px 220px;
+    padding: 100px 180px 200px 200px;
 }
 
 .text-description {
@@ -88,7 +89,6 @@ nav li a {
 }
 
 .input-container {
-
     margin-left: 180px;
     margin-right: 200px;
     border-radius: 8px;
@@ -269,7 +269,7 @@ td {
 }
 
 .form-container {
-    margin-top: 160px;
+    margin-top: 200px;
     border: 5px solid tomato;
     padding: 10px;
     margin-bottom: 100px;
@@ -289,8 +289,9 @@ td {
 }
 
 .destination-select {
-    font-size: 1.2rem;
-    margin-bottom: 50px;
+    font-size: 1rem;
+    margin-bottom: 30px;
+    margin-top: 20px;
 }
 
 .destination-select select {
@@ -302,7 +303,7 @@ td {
 /* chose section styles  */
 .why-container {
     text-align: center;
-    margin: 10px 150px;
+    margin: 50px 150px;
     margin-bottom: 30px;
 }
 
@@ -453,11 +454,11 @@ td {
 
 @media screen and (max-width:576px) {
     body {
-        margin: 10px 20px;
+        margin: 10px;
     }
 
     nav ul {
-        gap: 8px;
+        gap: 2px;
     }
 
     nav,
