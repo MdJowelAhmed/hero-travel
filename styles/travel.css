@@ -558,6 +558,12 @@ td {
         justify-content: center;
         align-items: center;
     } */
+    /* simple video container styles  */
+
+    .simple-video-container{
+        display: flex;
+    }
+
     .newsletter-container{
         margin: 10px;
         width: 100%;
